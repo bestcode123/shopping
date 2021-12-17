@@ -2,22 +2,23 @@
   "name": "dev-assist",
   "version": "1.0.0",
   "description": "A desktop application which helps developer's productivity",
-  "main": "index.js",
+  "main": "./client/src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bestcode123/Dev-Assist.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "me",
+  "license": "UNLISCENCED",
   "bugs": {
     "url": "https://github.com/bestcode123/Dev-Assist/issues"
   },
   "homepage": "https://github.com/bestcode123/Dev-Assist#readme",
   "dependencies": {
-    "create-react-app": "^5.0.0"
+    "create-react-app": "^5.0.0",
+    "jest": "^27.4.5"
   }
 }
