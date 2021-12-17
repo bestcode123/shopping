@@ -1,2 +1,2 @@
 # Dev-Assist
- A desktop application which helps developer's productivity
+ A web application which helps developer's productivity
