@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { Auth0Provider } from '@auth0/auth0-react';
 
-import Auth0LoginButton from './components/auth0/login'
-import Auth0LogoutButton from './components/auth0/logout'
+import { Auth0LoginButton } from './components/auth0/login'
+import { Auth0LogoutButton } from './components/auth0/logout'
 
 ReactDOM.render(
   <Auth0Provider

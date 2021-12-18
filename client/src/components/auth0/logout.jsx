@@ -1,7 +1,7 @@
 import React from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
 
-const Auth0LogoutButton = () => {
+export function Auth0LogoutButton() {
     const { logout } = useAuth0();
 
     return (
@@ -12,4 +12,3 @@ const Auth0LogoutButton = () => {
 }
 
 
-export default Auth0LogoutButton;
