@@ -1,0 +1,4 @@
+.userimg {
+    mask-image: url('mask1.svg');
+    mask-size: contain;
+}

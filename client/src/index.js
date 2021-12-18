@@ -5,6 +5,7 @@ import { Auth0Provider } from '@auth0/auth0-react';
 
 import { Auth0LoginButton } from './components/auth0/login'
 import { Auth0LogoutButton } from './components/auth0/logout'
+import { OneUserGI } from './components/auth0/getInfo'
 
 ReactDOM.render(
   <Auth0Provider
@@ -15,6 +16,8 @@ ReactDOM.render(
     <Auth0LoginButton />
     <br></br><br></br>
     <Auth0LogoutButton />
+    <br></br><br></br>
+    <OneUserGI />
   </Auth0Provider>,
   document.getElementById('root')
 );
